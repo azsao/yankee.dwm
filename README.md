@@ -13,8 +13,8 @@ First, run the commands in your designated terminal, whether it be ttyl1 to alac
 ### [OPTIONAL], if you'd like to run the automated installation script, run the following commands:
 
 Firstly, you'll need to update your system
-```Sudo pacman -Syu
-  Sudo pacman -Syy ```
+``Sudo pacman -Syu
+  Sudo pacman -Syy ``
 
 Secondly, you need to activate the script with this command
 `chmod +x script.sh`
