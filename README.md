@@ -32,5 +32,9 @@ There you have it, your lightweight, 0 patch dwm setup has been installed, feel 
 
 ## Credits
 
-Thank you to the [suckless](https://suckless.org/) developers for providing a minimalistic 
-Major credits to [marcothms](https://github.com/marcothms) for inspiring my dwmblocks config
+- Thank you to the [suckless](https://suckless.org/) developers for providing a minimalistic tiling manager
+- Appreciation goes to the [dwmblocks](https://github.com/torrinfail/dwmblocks)
+- Major credits to [marcothms](https://github.com/marcothms) for inspiring my dwmblocks config
+- Lastly, thank you to the [Lazy Developers](https://github.com/folke/lazy.nvim) for their open-source neovim products
+
+This configuration utilized the community of Arch Linux and r/UnixPorn to inspire and help create the finished product
