@@ -45,8 +45,8 @@ Dependencies play a crucial role in the configuration of DWM (Dynamic Window Man
 <details>
   <summary><strong>Mandatory</strong></summary>
   
-These programs are necessary inorder to ensure a proper installation of the configuration file
-All instances can be found within the AUR
+These programs are necessary inorder to ensure a proper installation of the configuration file.
+All instances can be found within the AUR.
 *This does not apply to those who followed the optional installation guide*
 
 - xorg
@@ -63,8 +63,8 @@ All instances can be found within the AUR
 <details>
   <summary><strong>Optional</strong></summary>
 
-These programs are heavily encouraged inorder to ensure a proper installation of the configuration file
-Most if not all can be found within the AUR or this git repository
+These programs are heavily encouraged inorder to ensure a proper installation of the configuration file.
+Most if not all can be found within the AUR or this git repository.
 *This does not apply to those who followed the optional installation guide*
 
 - feh
