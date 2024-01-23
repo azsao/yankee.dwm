@@ -30,9 +30,6 @@ Lastly, run your .xinitrc
 
 There you have it, your lightweight, 0 patch dwm setup has been installed, feel free to tweak the config.h or blocks.h for dwm and dwmblocks. You may want to ensure your system is good to go with another update.
 
-You can create collapsible sections in Markdown using a combination of HTML and JavaScript. However, it's important to note that the availability of JavaScript is required for this to work, and some platforms or environments might not support it. Here's an example using HTML details and summary tags:
-
-markdown
 <details>
   <summary><strong>Information</strong></summary>
 
