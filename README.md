@@ -39,6 +39,42 @@ The Yankee Neovim IDE is designed with a strong emphasis on minimalism, drawing 
 
 </details>
 
+## Dependencies
+Dependencies play a crucial role in the configuration of DWM (Dynamic Window Manager) on Arch Linux systems. In this context, dependencies are necessary components or libraries that certain software relies on to function properly. In the case of DWM, dependencies ensure the seamless integration of additional features and functionalities. Arch Linux, known for its simplicity and user-centric design, embraces the philosophy of providing users with the flexibility to tailor their systems according to individual preferences. By carefully managing dependencies, users can enhance the performance and extend the capabilities of DWM. This approach fosters a modular and customizable environment, allowing users to optimize their system without unnecessary bloat. In essence, dependencies contribute to the efficiency and adaptability of the DWM configuration on Arch Linux systems, aligning with the user-centric principles of both DWM and the Arch Linux distribution.
+
+<details>
+  <summary><strong>Mandatory</strong></summary>
+  
+These programs are necessary inorder to ensure a proper installation of the configuration file
+All instances can be found within the AUR
+*This does not apply to those who followed the optional installation guide*
+
+- xorg
+- xorg-xinit
+- terminus-font
+- dwm
+- dwmblocks
+- st
+- slstatus
+- git
+
+</details>
+
+<details>
+  <summary><strong>Optional</strong></summary>
+
+These programs are heavily encouraged inorder to ensure a proper installation of the configuration file
+Most if not all can be found within the AUR or this git repository
+*This does not apply to those who followed the optional installation guide*
+
+- feh
+- fonts in ~/yankee.dwm/fonts
+- neovim
+- htop
+
+</details>
+
+
 ## Credits
 
 - Thank you to the [suckless](https://suckless.org/) developers for providing a minimalistic tiling manager
