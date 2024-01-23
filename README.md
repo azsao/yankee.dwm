@@ -17,7 +17,7 @@ Firstly, you'll need to update your system
   Sudo pacman -Syy ``
 
 Secondly, you need to activate the script with this command
-``chmod +x script.sh``
+`chmod +x script.sh`
 
 Thirdly, you'll need to run the script with this command
 ``./script.sh``
