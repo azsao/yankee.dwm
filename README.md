@@ -32,7 +32,7 @@ There you have it, your lightweight, 0 patch dwm setup has been installed, feel 
 
 You can create collapsible sections in Markdown using a combination of HTML and JavaScript. However, it's important to note that the availability of JavaScript is required for this to work, and some platforms or environments might not support it. Here's an example using HTML details and summary tags:
 
-```markdown
+markdown
 <details>
   <summary>Information</summary>
 
@@ -41,7 +41,7 @@ This dwm configuration is designed with a focus on simplicity, steering clear of
 The Yankee Neovim IDE is designed with a strong emphasis on minimalism, drawing inspiration from lazyvim while prioritizing a streamlined and less-buggy user experience. Its functionality is carefully crafted to enhance coding workflows, offering a range of features aimed at improving code quality and developer productivity. The design philosophy centers around simplicity, ensuring that the IDE remains efficient and user-friendly. By incorporating the best aspects of lazyvim and refining them, this IDE provides a clean and minimalistic environment for coding, minimizing distractions and maximizing the focus on writing high-quality code.
 
 </details>
-```
+
 
 In the example above:
 - `<details>` is used to create a container for the collapsible content.
