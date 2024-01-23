@@ -1,4 +1,4 @@
-# yankee.dwm ![image](https://github.com/0sric/yankee.dwm/assets/152450334/a4aecfe6-58b8-488e-9708-374fd55dde7b)
+# yankee.dwm 
 
 
 
