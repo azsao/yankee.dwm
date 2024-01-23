@@ -34,7 +34,7 @@ You can create collapsible sections in Markdown using a combination of HTML and 
 
 markdown
 <details>
-  <summary>Information</summary>
+  <summary> ### Information</summary>
 
 This dwm configuration is designed with a focus on simplicity, steering clear of the inclusion of extra patches. The emphasis is on streamlining functionality through the use of minimalistic packages. The source code for this configuration can be found in the ~/.suckless directory, reflecting a preference for a straightforward and efficient setup without unnecessary embellishments. This approach aims to provide a clean and effective user experience, avoiding complexity for the sake of a more straightforward and accessible desktop environment.
 
