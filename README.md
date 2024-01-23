@@ -30,6 +30,27 @@ Lastly, run your .xinitrc
 
 There you have it, your lightweight, 0 patch dwm setup has been installed, feel free to tweak the config.h or blocks.h for dwm and dwmblocks.
 
+You can create collapsible sections in Markdown using a combination of HTML and JavaScript. However, it's important to note that the availability of JavaScript is required for this to work, and some platforms or environments might not support it. Here's an example using HTML details and summary tags:
+
+```markdown
+<details>
+  <summary>Information</summary>
+
+This dwm configuration is designed with a focus on simplicity, steering clear of the inclusion of extra patches. The emphasis is on streamlining functionality through the use of minimalistic packages. The source code for this configuration can be found in the ~/.suckless directory, reflecting a preference for a straightforward and efficient setup without unnecessary embellishments. This approach aims to provide a clean and effective user experience, avoiding complexity for the sake of a more straightforward and accessible desktop environment.
+
+The Yankee Neovim IDE is designed with a strong emphasis on minimalism, drawing inspiration from lazyvim while prioritizing a streamlined and less-buggy user experience. Its functionality is carefully crafted to enhance coding workflows, offering a range of features aimed at improving code quality and developer productivity. The design philosophy centers around simplicity, ensuring that the IDE remains efficient and user-friendly. By incorporating the best aspects of lazyvim and refining them, this IDE provides a clean and minimalistic environment for coding, minimizing distractions and maximizing the focus on writing high-quality code.
+
+</details>
+```
+
+In the example above:
+- `<details>` is used to create a container for the collapsible content.
+- `<summary>` provides the clickable text that toggles the visibility of the content.
+
+When the user clicks the "Click to expand" text, the hidden content will be revealed.
+
+Keep in mind that while this works in many modern web browsers, it might not be supported in all environments or platforms. If you're creating content for a specific platform, it's a good idea to check its compatibility.
+
 ## Credits
 
 - Thank you to the [suckless](https://suckless.org/) developers for providing a minimalistic tiling manager
