@@ -42,13 +42,6 @@ The Yankee Neovim IDE is designed with a strong emphasis on minimalism, drawing 
 
 </details>
 
-
-In the example above:
-- `<details>` is used to create a container for the collapsible content.
-- `<summary>` provides the clickable text that toggles the visibility of the content.
-
-When the user clicks the "Click to expand" text, the hidden content will be revealed.
-
 Keep in mind that while this works in many modern web browsers, it might not be supported in all environments or platforms. If you're creating content for a specific platform, it's a good idea to check its compatibility.
 
 ## Credits
