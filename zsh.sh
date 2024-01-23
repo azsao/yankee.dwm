@@ -39,7 +39,7 @@ echo "Moving configuration files"
 rm -rf ~/.suckless/dwm/config.h 
 mv ~/yankee.dwm/.suckless/dwm/config.h ~/.suckless/dwm/
 
-rm -rf ~/suckless/dwmblocks/blocks.h 
+rm -rf ~/.suckless/dwmblocks/blocks.h 
 mv ~/yankee.dwm/.suckless/dwmblocks/blocks.h ~/.suckless/dwmblocks/
 
 rm -rf ~/.xinitrc
