@@ -28,7 +28,7 @@ Fourthly, reboot your system
 Lastly, run your .xinitrc
 ``startx``
 
-There you have it, your lightweight, 0 patch dwm setup has been installed, feel free to tweak the config.h or blocks.h for dwm and dwmblocks.
+There you have it, your lightweight, 0 patch dwm setup has been installed, feel free to tweak the config.h or blocks.h for dwm and dwmblocks. You may want to ensure your system is good to go with another update.
 
 You can create collapsible sections in Markdown using a combination of HTML and JavaScript. However, it's important to note that the availability of JavaScript is required for this to work, and some platforms or environments might not support it. Here's an example using HTML details and summary tags:
 
@@ -41,8 +41,6 @@ This dwm configuration is designed with a focus on simplicity, steering clear of
 The Yankee Neovim IDE is designed with a strong emphasis on minimalism, drawing inspiration from lazyvim while prioritizing a streamlined and less-buggy user experience. Its functionality is carefully crafted to enhance coding workflows, offering a range of features aimed at improving code quality and developer productivity. The design philosophy centers around simplicity, ensuring that the IDE remains efficient and user-friendly. By incorporating the best aspects of lazyvim and refining them, this IDE provides a clean and minimalistic environment for coding, minimizing distractions and maximizing the focus on writing high-quality code.
 
 </details>
-
-Keep in mind that while this works in many modern web browsers, it might not be supported in all environments or platforms. If you're creating content for a specific platform, it's a good idea to check its compatibility.
 
 ## Credits
 
