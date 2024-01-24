@@ -1,22 +1,29 @@
 It is reccomended to install the following for complete functionality
 
-Steam
+<details>
+  <summary><strong>Steam</strong></summary>
 Sudo pacman -S steam
 - Drivers for your CPU/GPU 
+</details>
 
-Multilb
+<details>
+  <summary><strong>Multilib</strong></summary>
 nano /etc/pacman.conf
 **Uncomment the following**
 [multilib]
 Include = /etc/pacman.d/mirrorlist
+</details>
 
-Wine
+<details>
+  <summary><strong>Wine</strong></summary>
 sudo pacman -S wine
+</details>
 
-Flatpak
+<details>
+  <summary><strong>Flatpak</strong></summary>
 sudo pacman -S flatpak
 
 *Optionality*
 For roblox, it is reccomended you use [vinegar](https://flathub.org/apps/org.vinegarhq.Vinegar)
 proceed to run after installation: ``flatpak install flathub org.vinegarhq.Vinegar``
-
+</details>
