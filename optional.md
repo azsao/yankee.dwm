@@ -8,7 +8,8 @@ Sudo pacman -S steam
 
 <details>
   <summary><strong>Multilib</strong></summary>
-nano /etc/pacman.conf
+
+  ``nano /etc/pacman.conf``
 **Uncomment the following**
 [multilib]
 Include = /etc/pacman.d/mirrorlist
