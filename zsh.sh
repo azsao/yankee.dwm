@@ -45,6 +45,8 @@ mv ~/yankee.dwm/.suckless/dwmblocks/blocks.h ~/.suckless/dwmblocks/
 rm -rf ~/.xinitrc
 mv ~/yankee.dwm/xinitrc ~/yankee.dwm/.xinitrc
 mv ~/yankee.dwm/.xinitrc ~/
+
+mv ~/yankee.dwm/wallpapers ~/
 echo "Configuration files concluded"
 
 
