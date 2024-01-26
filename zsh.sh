@@ -11,8 +11,8 @@ sudo pacman -S --noconfirm git feh pipewire-pulse pactl neovim xclip git pavucon
 echo "Dependency installation has concluded"
 
 echo "Installing suckless functionalities"
-mkdir .suckless
-cd .suckless
+mkdir ~/.suckless
+cd ~/.suckless
 git clone https://git.suckless.org/dwm
 git clone https://git.suckless.org/st
 git clone https://git.suckless.org/dmenu
@@ -37,10 +37,10 @@ echo "Concluded installation of suckless functionalities"
 
 echo "Moving configuration files"
 rm -rf ~/.suckless/dwm/config.h 
-mv ~/yankee.dwm/.suckless/dwm/config.h ~/.suckless/dwm/
+mv ~/yankee.dwm/suckless/dwm/config.h ~/.suckless/dwm/
 
 rm -rf ~/.suckless/dwmblocks/blocks.h 
-mv ~/yankee.dwm/.suckless/dwmblocks/blocks.h ~/.suckless/dwmblocks/
+mv ~/yankee.dwm/suckless/dwmblocks/blocks.h ~/.suckless/dwmblocks/
 
 rm -rf ~/.xinitrc
 mv ~/yankee.dwm/xinitrc ~/yankee.dwm/.xinitrc
