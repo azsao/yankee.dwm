@@ -7,7 +7,7 @@ sudo pacman -Sy --noconfirm
 echo "System updated succesfully"
 
 echo "Preparing dependency installation"
-sudo pacman -S --noconfirm git feh pipewire-pulse pactl neovim xclip git pavucontrol xorg-xinit xorg terminus-font libxft libx11 libxinerama freetype2 base-devel fontconfig
+sudo pacman -S --noconfirm git feh pipewire-pulse pactl neovim xclip git pavucontrol xorg-xinit xorg-server terminus-font libxft libx11 libxinerama freetype2 base-devel fontconfig
 echo "Dependency installation has concluded"
 
 echo "Installing suckless functionalities"
@@ -36,13 +36,13 @@ sudo make clean install
 echo "Concluded installation of suckless functionalities"
 
 echo "Moving configuration files"
-rm -rf ~/.suckless/dwm/config.h 
+rm -r ~/.suckless/dwm/config.h 
 mv ~/yankee.dwm/suckless/dwm/config.h ~/.suckless/dwm/
 
-rm -rf ~/.suckless/dwmblocks/blocks.h 
+rm -r ~/.suckless/dwmblocks/blocks.h 
 mv ~/yankee.dwm/suckless/dwmblocks/blocks.h ~/.suckless/dwmblocks/
 
-rm -rf ~/.xinitrc
+rm -r ~/.xinitrc
 mv ~/yankee.dwm/xinitrc ~/yankee.dwm/.xinitrc
 mv ~/yankee.dwm/.xinitrc ~/
 
