@@ -10,7 +10,7 @@
 *the yankee way*
 
 First, run the commands in your designated terminal, whether it be ttyl1 to alacritty
-``git clone https://github.com/0sric/yankee.dwm.git``
+``git clone https://github.com/azsao/yankee.dwm.git``
 
 ### [OPTIONAL], if you'd like to run the automated installation script, run the following commands:
 
