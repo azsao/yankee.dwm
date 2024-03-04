@@ -7,6 +7,7 @@ static const Block blocks[] = {
 	{"󰕾   ",   "~/.suckless/dwmblocks/scripts/volume.sh",				1,	0},
   {"󰃭   ", "TZ=America/New_York date '+%b %d %a, %Y'", 30, 0},
   {"󰥔   ", "TZ=America/New_York date '+%R'", 5, 0},
+  {"󰁹   ", "~/.suckless/dwmblocks/scripts/battery.sh", 					10,	0},
 };
 
 //sets delimiter between status commands. NULL character ('\0') means no delimiter.
