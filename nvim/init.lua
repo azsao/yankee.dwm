@@ -23,3 +23,5 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
 
+-- Add line numbers
+vim.o.number = true

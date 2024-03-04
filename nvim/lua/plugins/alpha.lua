@@ -29,11 +29,8 @@ return {
         dashboard.button("g", " " .. " Find text",       "<cmd> Telescope live_grep <cr>"),
         dashboard.button("c", " " .. " Config",          "<cmd> lua require('lazyvim.util').telescope.config_files()() <cr>"),
         dashboard.button("s", " " .. " Restore Session", [[<cmd> lua require("persistence").load() <cr>]]),
-        dashboard.button("x", " " .. " Yankee Extras",     "<cmd> LazyExtras <cr>"),
-        dashboard.button("l", "" .. " Yankee",            "<cmd> Lazy <cr>"),
-        dashboard.button("q", " " .. " Quit",            "<cmd> qa <cr>"),
-      }
-      for _, button in ipairs(dashboard.section.buttons.val) do
+}
+for _, button in ipairs(dashboard.section.buttons.val) do
         button.opts.hl = "AlphaButtons"
         button.opts.hl_shortcut = "AlphaShortcut"
       end
@@ -56,7 +53,7 @@ return {
         })
       end
 
-      require("alpha").setup(dashboard.opts)
+require("alpha").setup(dashboard.opts)
 
       vim.api.nvim_create_autocmd("User", {
         once = true,
@@ -64,7 +61,7 @@ return {
         callback = function()
           local stats = require("lazy").stats()
           local ms = (math.floor(stats.startuptime * 100 + 0.5) / 100)
-          dashboard.section.footer.val = "⚡ Neovim loaded "
+          dashboard.section.footer.val = "⚡ Yankee loaded "
             .. stats.loaded
             .. "/"
             .. stats.count
